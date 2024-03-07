@@ -1,2 +1,2 @@
 # Plant-Planet
-a website in which you can learn about the organization plant planet
+A website in which you can get information about the organization and buy the plants you like to help the charity.
