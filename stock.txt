@@ -1,0 +1,3 @@
+<div class="first-image">
+                    <img src="https://media.istockphoto.com/id/1399624051/photo/business-success-an-inclusive-team-composition.jpg?s=1024x1024&w=is&k=20&c=qK1JWPihCe_tKBXhZKZD_lDIYs9LqluL8B-w1K-pbTg=" alt="">
+</div>

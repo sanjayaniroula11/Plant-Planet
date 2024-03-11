@@ -29,12 +29,13 @@ nav, section{
     width: 100%;
 }
 
-.links ul{
+ ul{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
-.links a{
+a{
     color: black;
     font-size: 16px;
     font-weight: 500;
@@ -44,14 +45,13 @@ nav, section{
 .hero-container{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 25px 0;
 }
 .hero-left{
-    width: 40%;
+    padding-right: 30%;
 }
 .left-content{
     display: flex;
-    width: 100%;
     align-items: center;
 }
 
@@ -89,14 +89,110 @@ nav, section{
     transition: 0.3s ease-in-out;
 }
 .hero-right{
-    width: 60%;
+    width: 50%;
 }
 
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+.block1{
+    display: flex;
+    object-fit: cover;
+}
+.block2{
+    display: flex;
+}
 
 .image-container img{
+ width: 100%;
+}
+
+.products-link{
     width: 100%;
 }
-.image-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.products-link a{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 75px;
+    letter-spacing: 1.5px;
+}
+
+.section-heading{
+    margin: 50px 0;
+}
+.section-heading h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #023020;
+}
+.section-heading p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2b410b;
+    margin-top: 10px;
+}
+
+.products-gallery{
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.product{
+    width: 250px;
+    background-color: #AAB2B5;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.product-image{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+}
+.p-image{
+    width: 100%;
+    border-radius: 5px;
+}
+.product-details{
+    /* padding: 20px;    */
+    text-align: center;
+}
+.product h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.product p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.rupees{
+    font-weight: 300;
+}
+
+.motive-container{
+    display: flex;
+}
+.motive-section{
+    width: 50%;
+}
+.motive-section p{
+    font-size: 1.5rem;
+    padding-right: 10%;
+    margin: 20px 0;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+.why-this-image{
+    width: 50%;
+    display: flex;
+ 
+}
+.first-image img{
+    width: 100% ;
+    border-radius: 15px ;
 }
