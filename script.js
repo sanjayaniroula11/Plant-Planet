@@ -26,7 +26,8 @@ function addProducts() {
     <br>
     <div class="product-details">
         <h4>${obj.name}</h4>
-        <p>Price : <span class="rupees">${obj.price}</span></p>
+        <p>Price : <span class="rupees">${obj.price}/-</span></p>
+        <button class="add-to-cart">Add To Cart <i class="ri-shopping-cart-2-line"></i></button>
     </div>
 </div>`;
 
